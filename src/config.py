@@ -27,3 +27,10 @@ class Config:
     self.__fonts = data["fonts"]
     self.__check_data(data, "include", type(self.__include))
     self.__include = data["include"]
+
+  def get_fonts(self) -> list:
+    return self.__fonts
+  def get_texts(self) -> list:
+    return self.__include
+  def get_output(self) -> str:
+    return self.__output

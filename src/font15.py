@@ -1,5 +1,6 @@
 import sys
 import config
+from combiner import Combiner
 
 class Option:
   config_path = ""
@@ -19,5 +20,7 @@ class Option:
 def __main__():
   option = Option()
   cfg = config.Config(option.config_path)
+  combinator = Combiner(cfg.get_fonts(), cfg.get_texts())
+  combinator.generate(cfg.get_output())
 
 __main__()
