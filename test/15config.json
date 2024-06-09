@@ -1,7 +1,10 @@
 {
   "output": "my_font.ttf",
   "fonts": [
+    "test/fonts/OTF/SimplifiedChineseHW/SourceHanSansHWSC-Regular.otf",
+    "test/fonts/OTF/Japanese/SourceHanSans-Regular.otf"
   ],
   "include": [
+    "test/test.csv"
   ]
 }

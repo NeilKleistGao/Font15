@@ -165,3 +165,5 @@ bin/
 pyvenv.cfg
 lib64
 share/
+test/fonts/
+*.zip
